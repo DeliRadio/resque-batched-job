@@ -20,7 +20,7 @@ module Resque
 
     module BatchedJob
 
-      include Resque::Helpers
+      include Helpers
 
       # Helper method used to generate the batch key.
       #
